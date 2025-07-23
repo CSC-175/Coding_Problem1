@@ -15,37 +15,31 @@ The semi-perimeter is a required value in the formula.
 
 
 ## Directions
-After accepting the Coding Problem Test 1, clone the repository to your virtual machine, add your solution code and test it against the correct results that match the interface prototype example shown below. Write a program that prompts the user to enter the length of the three sides of a triangle and calculate is area using the Heron's formula:
+After accepting the coding problem, clone the repository to your virtual machine, add your solution code and test it against the correct results that match the interface prototype example shown below. Write a program that prompts the user to enter the length of the three sides of a triangle and calculate is area using the Heron's formula:
 
 $`area = \sqrt{s(s-a)(s-b)(s-c)}`$
 
+$`s = \frac{a+b+c}{2}`$
 
-two primary colors as strings: “red”, “green”, or “blue”. Once entered, the program 
-outputs the resulting secondary color. The program should be designed to respond to invalid colors or duplicate colors such as blue mixed with blue or orange mixed with green. 
-It should also handle first letter capitalization of colors.
+s = semi-perimeter
 
 ## Interface Prototype Example
 
 ### Test Case 1 Output
-<pre><b>Enter the first primary color to mix (red, green, or blue): red
-Enter the second primary color to mix (red, green, or blue): blue
-The secondary color you mixed is magenta.
-Bye!</b></pre>
+<pre><b>Enter the length of side A: 4.1
+Enter the length of side B: 3.5
+Enter the length of side C: 7.5
+
+The area of the triangle is 2.30</b></pre>
 ### Test Case 2 Output
-<pre><b>Enter the first primary color to mix (red, green, or blue): blue
-Enter the second primary color to mix (red, green, or blue): orange
-The secondary color you mixed is invalid.
-Bye!</b></pre>
+<pre><b>Enter the length of side A: 4.5
+Enter the length of side B: 16.125
+Enter the length of side C: 12
+
+The area of the triangle is 12.48</b></pre>
 ### Test Case 3 Output
-<pre><b>Enter the first primary color to mix (red, green, or blue): green
-Enter the second primary color to mix (red, green, or blue): green
-The secondary color you mixed is invalid.
-Bye!</b></pre>
-### Test Case 4 Output
-<pre><b>Enter the first primary color to mix (red, green, or blue): Green
-Enter the second primary color to mix (red, green, or blue): Red
-The secondary color you mixed is yellow.
-Bye!</b></pre>
+<pre><b>Enter the length of side A: 1.1
+Enter the length of side B: 2.2
+Enter the length of side C: 3.3
 
-
-
+The area of the triangle is 0.00</b></pre>
