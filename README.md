@@ -15,7 +15,7 @@ The semi-perimeter is a required value in the formula.
 
 
 ## Directions
-After accepting the coding problem, clone the repository to your virtual machine, add your solution code and test it against the correct results that match the interface prototype example shown below. Write a program that prompts the user to enter the length of the three sides of a triangle and calculate is area using the Heron's formula:
+After accepting the coding problem, clone the repository to your virtual machine, add your solution code and test it against the correct results that match the interface prototype example shown below. Write a program that prompts the user to enter the length of the three sides of a triangle and calculate it's area using the Heron's formula:
 
 $`area = \sqrt{s(s-a)(s-b)(s-c)}`$
 
