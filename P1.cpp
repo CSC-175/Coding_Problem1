@@ -4,16 +4,10 @@ using namespace std;
 
 int main() {
     double a,b,c,s,area;
-    // Place your solution code for Coding Problem 1 here
-    cout << "Enter the length of side A: ";
-    cin >> a;
-    cout << "Enter the length of side B: ";
-    cin >> b;
-    cout << "Enter the length of side C: ";
-    cin >> c;
+    // Place your solution code for calculating the area of the triangle using the Heron's formula here
 
-    s = (a + b + c)/2.0;
-    area = sqrt(s * (s-a) * (s-b) * (s-c));
+    
+    // Use this code to output the area of the triangle
     cout.setf(ios::fixed);
     cout.precision(2);
     cout << "\nThe area of the triangle is " << area << endl;
