@@ -19,7 +19,7 @@ After accepting the coding problem, clone the repository to your virtual machine
 
 $`area = \sqrt{s(s-a)(s-b)(s-c)}`$
 
-$`s = \frac{a+b+c}{2}`$
+WHERE:   $`s = \frac{a+b+c}{2}`$
 
 s = semi-perimeter
 
