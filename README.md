@@ -1,4 +1,4 @@
-# Coding Problem Test 1
+# Area of a Triangle Calculator
 
 ## Background
 
